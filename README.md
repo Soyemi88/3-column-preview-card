@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - 3 Column Preview Card Component
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -7,10 +7,10 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
 - [The challenge](#the-challenge)
 - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Order Summary Solution](https://github.com/Soyemi88/3-column-preview-card.git)
-- Live Site URL: [Order Summary Card](https://soyemi88.github.io/3-column-preview-card/)
+- Solution URL: [3 Column Preview Card](https://github.com/Soyemi88/3-column-preview-card.git)
+- Live Site URL: [3 Column Preview Card](https://soyemi88.github.io/3-column-preview-card/)
 
 
 ### Built with
