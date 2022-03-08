@@ -1,0 +1,155 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+body{
+ margin: 10px;
+ padding: 10px;
+ font-size: 15px;
+ background-color: hsla(0, 0%, 100%, 0.75);
+ line-height: 1.5;
+ 
+ 
+}
+.bg{
+  background-color: (0, 0%, 100%, 0.75);
+  
+  padding: 20px 0 20px 0;
+}
+
+.container{
+  background-color:hsla(0, 0%, 100%, 0.75); 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  border:30px;
+  
+ 
+}
+img{
+  position: relative;
+  margin: 10px 0;
+  width: 30%;
+  padding-top: 5px;
+}
+
+header{
+  font-family: 'Big Shoulders Display' sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  max-height: 127.92px;
+}
+p{
+  
+  font-family:'Lexend Deca' sans-serif ;
+  font-weight: 400;
+  color: white;
+  
+}
+h6{
+  margin: 0;
+  opacity: 70%;
+ 
+}
+.sedans{
+  padding:0 20px ;
+  background-color: hsl(31, 77%, 52%);
+  min-height: 278.65px;
+  max-width: 120px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.suvs{
+  padding: 0 20px;
+  background-color: hsl(184, 100%, 22%);
+  min-height: 278.65px;
+  max-width: 120px;
+}
+
+.luxury{
+  padding:0 20px;
+ background-color: hsl(179, 100%, 13%);
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+ max-width: 120px;
+  min-height: 278.65px;
+}
+button{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 19px;
+  border-style: none;
+  margin:30px 0 20px 0;
+  font-size: 10px;
+  text-align: center;
+  min-width: 80px;
+  cursor: pointer;
+  min-height: 33px;
+
+}
+.b-sedan{
+color: hsl(31, 77%, 52%);
+}
+
+.b-suv{
+color:hsl(184, 100%, 22%);  
+}
+
+.b-luxury{
+  color: hsl(179, 100%, 13%);
+}
+
+.b-sedan:hover{
+ background-color:hsl(31, 77%, 52%);
+ color: hsl(0, 0%, 95%);
+ border-style:solid;
+ border-color:hsl(0, 0%, 95%) ;
+ border-width: 1px;
+}
+
+
+.b-suv:hover{
+  background-color:hsl(184, 100%, 22%); 
+  color: hsl(0, 0%, 95%);
+  border-style:solid;
+  border-width: 1px;
+  border-color:hsl(0, 0%, 95%) ;
+ }
+
+ .b-luxury:hover{
+  background-color:hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-style:solid;
+  border-width: 1px;
+  border-color:hsl(0, 0%, 95%) ;
+ }
+
+ @media(max-width:400px){
+ 
+.bg{
+   background-color: hsl(0, 0%, 100%, 0.75);
+   padding: 20px 0 20px 0;
+  }
+
+.container{
+  background-color:hsla(0, 0%, 100%, 0.75); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border:30px;
+ border-radius: 10px;
+ }
+
+ .sedans{
+border-top-right-radius: 5px;
+border-bottom-left-radius: 0;
+ }
+
+.luxury{
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+}
